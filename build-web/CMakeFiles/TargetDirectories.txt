@@ -1,0 +1,11 @@
+/workspaces/opengl/build-web/CMakeFiles/glad.dir
+/workspaces/opengl/build-web/CMakeFiles/my_app.dir
+/workspaces/opengl/build-web/CMakeFiles/edit_cache.dir
+/workspaces/opengl/build-web/CMakeFiles/rebuild_cache.dir
+/workspaces/opengl/build-web/glad_cmake/CMakeFiles/edit_cache.dir
+/workspaces/opengl/build-web/glad_cmake/CMakeFiles/rebuild_cache.dir
+/workspaces/opengl/build-web/_deps/glm-build/CMakeFiles/edit_cache.dir
+/workspaces/opengl/build-web/_deps/glm-build/CMakeFiles/rebuild_cache.dir
+/workspaces/opengl/build-web/_deps/glm-build/glm/CMakeFiles/glm.dir
+/workspaces/opengl/build-web/_deps/glm-build/glm/CMakeFiles/edit_cache.dir
+/workspaces/opengl/build-web/_deps/glm-build/glm/CMakeFiles/rebuild_cache.dir

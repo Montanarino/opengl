@@ -1,0 +1,2 @@
+/workspaces/opengl/emsdk/upstream/emscripten/emar qc libglad.a CMakeFiles/glad.dir/glad/src/gles2.c.o
+/workspaces/opengl/emsdk/upstream/emscripten/emranlib libglad.a

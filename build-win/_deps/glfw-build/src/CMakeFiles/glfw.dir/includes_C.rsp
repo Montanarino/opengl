@@ -1,0 +1,1 @@
+-I"/workspaces/opengl/build-win/_deps/glfw-src/include" -I"/workspaces/opengl/build-win/_deps/glfw-src/src" -I"/workspaces/opengl/build-win/_deps/glfw-build/src"

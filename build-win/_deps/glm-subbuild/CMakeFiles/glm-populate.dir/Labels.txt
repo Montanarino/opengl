@@ -1,0 +1,14 @@
+# Target labels
+ glm-populate
+# Source files and their labels
+/workspaces/opengl/build-win/_deps/glm-subbuild/CMakeFiles/glm-populate
+/workspaces/opengl/build-win/_deps/glm-subbuild/CMakeFiles/glm-populate.rule
+/workspaces/opengl/build-win/_deps/glm-subbuild/CMakeFiles/glm-populate-complete.rule
+/workspaces/opengl/build-win/_deps/glm-subbuild/glm-populate-prefix/src/glm-populate-stamp/glm-populate-build.rule
+/workspaces/opengl/build-win/_deps/glm-subbuild/glm-populate-prefix/src/glm-populate-stamp/glm-populate-configure.rule
+/workspaces/opengl/build-win/_deps/glm-subbuild/glm-populate-prefix/src/glm-populate-stamp/glm-populate-download.rule
+/workspaces/opengl/build-win/_deps/glm-subbuild/glm-populate-prefix/src/glm-populate-stamp/glm-populate-install.rule
+/workspaces/opengl/build-win/_deps/glm-subbuild/glm-populate-prefix/src/glm-populate-stamp/glm-populate-mkdir.rule
+/workspaces/opengl/build-win/_deps/glm-subbuild/glm-populate-prefix/src/glm-populate-stamp/glm-populate-patch.rule
+/workspaces/opengl/build-win/_deps/glm-subbuild/glm-populate-prefix/src/glm-populate-stamp/glm-populate-test.rule
+/workspaces/opengl/build-win/_deps/glm-subbuild/glm-populate-prefix/src/glm-populate-stamp/glm-populate-update.rule

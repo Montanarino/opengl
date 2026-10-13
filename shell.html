@@ -1,0 +1,79 @@
+<!doctype html>
+<html lang="en-us">
+<head>
+    <meta charset="utf-8">
+    <title>Poletti</title>
+    <style>
+        body {
+            background-color: #1e1e1e;
+            color: #d4d4d4;
+            font-family: monospace;
+            margin: 0;
+            padding: 20px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        canvas.emscripten {
+            border: 0px none;
+            background-color: black;
+            display: block;
+            outline: none;
+        }
+        #output {
+            width: 800px;
+            height: 160px;
+            margin-top: 12px;
+            background-color: #0f0f0f;
+            color: #4af626;
+            border: 1px solid #333;
+            padding: 8px;
+            font-family: monospace;
+            resize: vertical;
+            box-sizing: border-box;
+        }
+    </style>
+</head>
+<body>
+    <!-- WebGL Canvas -->
+    <canvas class="emscripten" id="canvas" oncontextmenu="event.preventDefault()" tabindex="-1"></canvas>
+
+    <!-- Standard Output Log -->
+    <textarea id="output" rows="8" readonly></textarea>
+
+    <script type="text/javascript">
+        var Module = {
+            canvas: (function() {
+                var canvas = document.getElementById('canvas');
+                canvas.addEventListener("webglcontextlost", function(e) {
+                    alert('WebGL context lost. You will need to reload the page.');
+                    e.preventDefault();
+                }, false);
+                return canvas;
+            })(),
+            print: (function() {
+                var element = document.getElementById('output');
+                if (element) element.value = '';
+                return function(text) {
+                    if (arguments.length > 1) text = Array.prototype.slice.call(arguments).join(' ');
+                    console.log(text);
+                    if (element) {
+                        element.value += text + "\n";
+                        element.scrollTop = element.scrollHeight;
+                    }
+                };
+            })(),
+            printErr: function(text) {
+                if (arguments.length > 1) text = Array.prototype.slice.call(arguments).join(' ');
+                console.error(text);
+                var element = document.getElementById('output');
+                if (element) {
+                    element.value += "[ERR] " + text + "\n";
+                    element.scrollTop = element.scrollHeight;
+                }
+            }
+        };
+    </script>
+    {{{ SCRIPT }}}
+</body>
+</html>

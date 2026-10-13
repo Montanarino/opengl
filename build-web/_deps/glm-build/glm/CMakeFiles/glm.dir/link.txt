@@ -1,0 +1,2 @@
+/workspaces/opengl/emsdk/upstream/emscripten/emar qc libglm.a CMakeFiles/glm.dir/detail/glm.cpp.o
+/workspaces/opengl/emsdk/upstream/emscripten/emranlib libglm.a

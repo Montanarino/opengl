@@ -1,0 +1,1 @@
+--out-path /workspaces/opengl/build-win/glad --api gl:core=3.3 --reproducible c

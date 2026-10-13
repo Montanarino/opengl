@@ -1,0 +1,49 @@
+{
+    "version": 3,
+    "configurePresets": [
+        {
+            "name": "default",
+            "displayName": "Default Config",
+            "binaryDir": "${sourceDir}/build",
+            "generator": "Unix Makefiles"
+        },
+        {
+            "name": "build-win",
+            "displayName": "Cross-Compile Windows (MinGW)",
+            "binaryDir": "${sourceDir}/build-win",
+            "generator": "Unix Makefiles",
+            "cacheVariables": {
+                "CMAKE_SYSTEM_NAME": "Windows",
+                "CMAKE_C_COMPILER": "x86_64-w64-mingw32-gcc",
+                "CMAKE_CXX_COMPILER": "x86_64-w64-mingw32-g++"
+            }
+        },
+        {
+            "name": "build-web",
+            "displayName": "Cross-Compile WebAssembly (Emscripten)",
+            "binaryDir": "${sourceDir}/build-web",
+            "generator": "Unix Makefiles",
+            "toolchainFile": "$env{EMSDK}/upstream/emscripten/cmake/Modules/Platform/Emscripten.cmake",
+            "cacheVariables": {
+                "CMAKE_BUILD_TYPE": "Release"
+            }
+        }
+    ],
+    "buildPresets": [
+        {
+            "name": "default",
+            "displayName": "Build Default (Linux)",
+            "configurePreset": "default"
+        },
+        {
+            "name": "build-win",
+            "displayName": "Build Windows Executable",
+            "configurePreset": "build-win"
+        },
+        {
+            "name": "build-web",
+            "displayName": "Build WebAssembly App",
+            "configurePreset": "build-web"
+        }
+    ]
+}

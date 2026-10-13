@@ -1,0 +1,25 @@
+CMakeFiles/glad.dir/glad/src/gles2.c.o: \
+  /workspaces/opengl/build-web/glad/src/gles2.c \
+  /workspaces/opengl/emsdk/upstream/emscripten/cache/sysroot/include/stdio.h \
+  /workspaces/opengl/emsdk/upstream/emscripten/cache/sysroot/include/wasi/api.h \
+  /workspaces/opengl/emsdk/upstream/lib/clang/24/include/stddef.h \
+  /workspaces/opengl/emsdk/upstream/emscripten/cache/sysroot/include/stddef.h \
+  /workspaces/opengl/emsdk/upstream/lib/clang/24/include/__stddef_header_macro.h \
+  /workspaces/opengl/emsdk/upstream/lib/clang/24/include/__stddef_ptrdiff_t.h \
+  /workspaces/opengl/emsdk/upstream/lib/clang/24/include/__stddef_size_t.h \
+  /workspaces/opengl/emsdk/upstream/lib/clang/24/include/__stddef_wchar_t.h \
+  /workspaces/opengl/emsdk/upstream/lib/clang/24/include/__stddef_null.h \
+  /workspaces/opengl/emsdk/upstream/lib/clang/24/include/__stddef_max_align_t.h \
+  /workspaces/opengl/emsdk/upstream/lib/clang/24/include/__stddef_offsetof.h \
+  /workspaces/opengl/emsdk/upstream/lib/clang/24/include/stdint.h \
+  /workspaces/opengl/emsdk/upstream/emscripten/cache/sysroot/include/stdint.h \
+  /workspaces/opengl/emsdk/upstream/emscripten/cache/sysroot/include/bits/alltypes.h \
+  /workspaces/opengl/emsdk/upstream/emscripten/cache/sysroot/include/features.h \
+  /workspaces/opengl/emsdk/upstream/emscripten/cache/sysroot/include/compat/stdlib.h \
+  /workspaces/opengl/emsdk/upstream/emscripten/cache/sysroot/include/stdlib.h \
+  /workspaces/opengl/emsdk/upstream/emscripten/cache/sysroot/include/alloca.h \
+  /workspaces/opengl/emsdk/upstream/emscripten/cache/sysroot/include/compat/string.h \
+  /workspaces/opengl/emsdk/upstream/emscripten/cache/sysroot/include/string.h \
+  /workspaces/opengl/emsdk/upstream/emscripten/cache/sysroot/include/strings.h \
+  /workspaces/opengl/build-web/glad/include/glad/gles2.h \
+  /workspaces/opengl/build-web/glad/include/KHR/khrplatform.h

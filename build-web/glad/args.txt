@@ -1,0 +1,1 @@
+--out-path /workspaces/opengl/build-web/glad --api gles2=3.0 --reproducible c
